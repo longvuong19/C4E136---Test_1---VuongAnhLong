@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Poppins:ital,wght@0,100;0,300;1,200&family=Roboto&display=swap');
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+#form {
+    margin: auto;
+    width: 1213px;
+    height: 830px;
+    padding: 100px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 32px;
+    color: #151B32;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar li a {
+    font-weight: 500;
+    font-size:  16px;
+}
+
+.nav-link {
+    border-radius: 8px;
+}
+
+.nav-link:hover {
+    background-color: #849FFF;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.new-users li a {
+    color: #fff;
+}
+
+#user {
+    margin-top: 70px;
+    gap: 16px;
+}
+
+.col {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 16px;
+    background: #FBFCFF;
+    border-radius: 16px;
+}
+
+.col:hover {
+    border: 1px solid #BFC8E6;
+    box-shadow: 0px 8px 23px rgba(218, 224, 249, 0.7);
+}
+
+.row {
+    gap: 16px;
+}
+
+.container-1 {
+    margin-bottom: 16px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 0px 0px;
+    gap: 16px;
+}
+
+.info .personal {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.info .likes-1,
+.info .likes-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+}
+
+.info .likes-1 {
+    margin-bottom: -12px;
+}
+
+.specific {
+    justify-content: center;
+    align-items: center;
+    padding: 2px 8px;
+    gap: 10px;
+    background-color: #fff;
+    color: #516FD5;
+    border: 1px solid #BFC8E6;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 900;
+    color: #151B32;
+}
+
+.address {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #151B32;
+}
+
+.search-btn {
+    border: 1px solid #BFC8E6 !important;
+    border-radius: 4px !important;
+}
